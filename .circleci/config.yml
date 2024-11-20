@@ -35,7 +35,7 @@ jobs:
           name: Run tests
           # This assumes pytest is installed via the install-package step above
 #          command: pytest
-           command: python src/app.py
+          command: python src/app.py
 
 
 # Orchestrate jobs using workflows
